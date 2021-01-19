@@ -1,0 +1,11 @@
+<p>{{title}} test works!</p>
+<!-- <input #myinput type="text">
+<button (click)="randomFunc(myinput.value)">ADD</button> -->
+<input type="text" [(ngModel)]="name">
+{{name}}
+
+<ul *ngFor="let color of colors; index as i">
+   <li>{{i}}{{color}}</li> 
+</ul>
+
+{{name}}
